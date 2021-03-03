@@ -1,0 +1,95 @@
+p {
+  margin: 0px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.around {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cal-background {
+  margin-top: 50px;
+  background-color: #ffd9de;
+  border-radius: 30px;
+  padding: 30px 20px;
+  width: 400px;
+  height: 500px;
+  border: 3px #ff8e8e solid;;
+  box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.3);
+}
+
+#cal-screen {
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: black;
+  font-size: 50px;
+  text-align: right;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Varela Round", sans-serif;
+  border: 4px rgba(0, 0, 0, 0.507) solid;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+
+.text {
+  font-size: 50px;
+  margin: 6px;
+  color: #ffffff;
+  font-family: "Varela Round", sans-serif;
+}
+
+.signOfOperation {
+  width: 35px;
+  background-color: #f51a37;
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+  cursor: pointer; 
+}
+
+.theNumber {
+  background-color: #f57f8f;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+  cursor: pointer; 
+}
+
+.theNumber:active {
+  background-color: #d42d49;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+
+.signOfOperation:active {
+  background-color: #8b2d2d;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+
+button:focus {
+  outline:0;
+}
+
